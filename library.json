@@ -1,0 +1,22 @@
+{
+  "name": "ld2450",
+  "version": "1.0.0",
+  "description": "Serial driver for HiLink's ld2450 radar module",
+  "keywords": "hilink, ld2450, radar, human presence detection",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/lazarbankovic/hilink-ld2450"
+  },
+  "authors":
+  [
+    {
+      "name": "Lazar Bankovic",
+      "email": "lazar.bankovic@gmail.com",
+      "maintainer": true
+    },
+  ],
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": "*"
+}
