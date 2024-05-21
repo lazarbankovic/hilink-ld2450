@@ -1,5 +1,5 @@
 # hilink-ld2450
-This is a serial driver for Hilink's ld2450 radar driver. 
+This is a serial driver for Hilink's ld2450 radar module. 
 
 Usage is really simple:  
 
