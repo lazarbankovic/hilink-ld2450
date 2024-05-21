@@ -14,7 +14,7 @@
       "name": "Lazar Bankovic",
       "email": "lazar.bankovic@gmail.com",
       "maintainer": true
-    },
+    }
   ],
   "license": "MIT",
   "frameworks": "arduino",
