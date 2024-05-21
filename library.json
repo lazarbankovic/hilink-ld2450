@@ -1,6 +1,6 @@
 {
   "name": "ld2450",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Serial driver for HiLink's ld2450 radar module",
   "keywords": "hilink, ld2450, radar, human presence detection",
   "repository":
