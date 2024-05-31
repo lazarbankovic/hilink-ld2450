@@ -20,7 +20,7 @@ hilink::Ld2450 ld2450(Serial2,
                                         data.resolution);
                       });
 ```  
-Other way to do it is just passing the Serial and a simple hendler function.  
+The other way to do it is just by passing the Serial instance and a simple handler function.  
 ```cpp
 #include "Ld2450.h"
 
@@ -39,8 +39,8 @@ void callback(hilink::Ld2450::SensorTarget target,
 /* Pass the serial instance and the data handler function to ld2450 driver instance. */
 hilink::Ld2450 ld2450(Serial2, callback);
 ```
-In setup phase, we init serial for a PC communication. Then, we init the ld2450 driver (which will just init the Serial for ld2450 communication).
-Calling .startData() will start receiving data from the module.
+In setup phase, we init serial for the PC communication. Then, we init the ld2450 driver (which will just init the Serial for the ld2450 communication).
+Calling .startData() will start receiving the data from the module.
 ```cpp
 void setup()
 {
